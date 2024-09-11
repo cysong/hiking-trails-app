@@ -21,10 +21,14 @@ Colors:
 
 export default {
   scene: {
-    websceneItemId: "d0580bb5df3840d384bda44b6ddeb54e"
+    // websceneItemId: "d0580bb5df3840d384bda44b6ddeb54e"
+    websceneItemId: "e191fb56dbd640f2b9119d393bfe229b",
   },
   data: {
-    trailsServiceUrl: "https://services2.arcgis.com/cFEFS0EWrhfDeVw9/arcgis/rest/services/SwissNationalParkTrails/FeatureServer/0",
+    // trailsServiceUrl:
+    //   "https://services2.arcgis.com/cFEFS0EWrhfDeVw9/arcgis/rest/services/SwissNationalParkTrails/FeatureServer/0",
+    trailsServiceUrl:
+      "https://services.arcgis.com/PyaTLAnbSEVNXOpB/arcgis/rest/services/trail_orton_updated/FeatureServer",
     trailAttributes: {
       name: "Name",
       id: "RouteId",
@@ -32,15 +36,15 @@ export default {
       walktime: "Hiketime",
       status: "Access",
       ascent: "Ascent",
-      description: "Description"
+      description: "Description",
     },
     filterOptions: {
       singleChoice: ["difficulty", "status"], // have string values
-      range: ["walktime", "ascent"] // have numeric values
-    }
+      range: ["walktime", "ascent"], // have numeric values
+    },
   },
   colors: {
     defaultTrail: "#db5353",
-    selectedTrail: "#f9a352"
-  }
+    selectedTrail: "#f9a352",
+  },
 };
