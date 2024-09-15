@@ -1,6 +1,6 @@
 /* styles for the loading page */
 
-@import 'variables';
+@import "variables";
 
 .starter {
   width: 100%;
@@ -10,11 +10,11 @@
   bottom: 0;
   display: table;
   font-size: $medium-font;
-  background-image: url(../img/background.jpg) ;
+  background-image: url(../img/background.png);
   background-position: center center;
-  background-repeat:  no-repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size:  cover;
+  background-size: cover;
   background-color: #fff;
   z-index: 1000;
 
@@ -81,6 +81,4 @@
     height: 80px;
     vertical-align: middle;
   }
-
 }
-
