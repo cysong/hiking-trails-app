@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@arcgis/core": "^4.30.9",
-    "nouislider": "^15.8.1"
+    "nouislider": "^15.8.1",
+    "trail-guide": "file:"
   }
 }
